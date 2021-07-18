@@ -41,7 +41,7 @@ class Navbar extends Component {
         console.log(alternateOriginUrl)
 
         if (currentUrl !== alternateOriginUrl && currentUrl !== alternateOriginUrl2 && currentUrl !== alternateOriginUrl3 && currentUrl !== alternateOriginUrl4) {
-            window.location.href = window.location.origin;
+            window.location.href = alternateOriginUrl;
         }
     }
 
