@@ -29,7 +29,7 @@ class Support extends Component {
                 />
 
                 <div className="container-fluid d-flex align-items-center justify-content-center">
-                    <p className="text-center" id="about-text-1"><img src={'/chat-bubbles-icon.png'} id="support-title-icon"/> Need help? Chat with us!</p>
+                    <p className="text-center" id="about-text-1"><img src={process.env.PUBLIC_URL + '/chat-bubbles-icon.png'} id="support-title-icon"/> Need help? Chat with us!</p>
                 </div>
                 <br/>
                 <div id="support-chatbox">

@@ -28,7 +28,7 @@ class Product extends Component {
                             <td id="product-table-dark-text">
                                 <div className="row">
                                     <div className="col" id="product-table-icon-column">
-                                        <img src={'/map-icon.png'} id="product-table-icon"/>
+                                        <img src={process.env.PUBLIC_URL + '/map-icon.png'} id="product-table-icon"/>
                                     </div>
                                     <div className="col">More VPN locations</div>
                                 </div>
@@ -46,7 +46,7 @@ class Product extends Component {
                             <td id="product-table-dark-text">
                                 <div className="row">
                                     <div className="col" id="product-table-icon-column">
-                                        <img src={'/world-icon.png'} id="product-table-icon"/>
+                                        <img src={process.env.PUBLIC_URL + '/world-icon.png'} id="product-table-icon"/>
                                     </div>
                                     <div className="col">Superior connection reliability</div>
                                 </div>
@@ -64,7 +64,7 @@ class Product extends Component {
                             <td id="product-table-dark-text">
                                 <div className="row">
                                     <div className="col" id="product-table-icon-column">
-                                        <img src={'/speed-icon.png'} id="product-table-icon"/>
+                                        <img src={process.env.PUBLIC_URL + '/speed-icon.png'} id="product-table-icon"/>
                                     </div>
                                     <div className="col">Optimized for speed</div>
                                 </div>
@@ -82,7 +82,7 @@ class Product extends Component {
                             <td id="product-table-dark-text">
                                 <div className="row">
                                     <div className="col" id="product-table-icon-column">
-                                        <img src={'/language-icon.png'} id="product-table-icon"/>
+                                        <img src={process.env.PUBLIC_URL + '/language-icon.png'} id="product-table-icon"/>
                                     </div>
                                     <div className="col">Multilingual interface</div>
                                 </div>
@@ -100,7 +100,7 @@ class Product extends Component {
                             <td id="product-table-dark-text">
                                 <div className="row">
                                     <div className="col" id="product-table-icon-column">
-                                        <img src={'/three-dots-icon.png'} id="product-table-dots-icon"/>
+                                        <img src={process.env.PUBLIC_URL + '/three-dots-icon.png'} id="product-table-dots-icon"/>
                                     </div>
                                     <div className="col">And much more!</div>
                                 </div>
@@ -149,22 +149,22 @@ class Product extends Component {
 
                                     <tbody>
                                         <tr>
-                                            <td><img src={'/black-privo-logo.png'} id="product-compare-table-icon"/></td>
+                                            <td><img src={process.env.PUBLIC_URL + '/black-privo-logo.png'} id="product-compare-table-icon"/></td>
                                             <th scope="row">PrivoVPN</th>
                                             <td><u>{this.getRandomNumber(75, 95)}</u></td>
                                         </tr>
                                         <tr>
-                                            <td><img src={'/expressvpn-logo.png'} id="product-compare-table-icon"/></td>
+                                            <td><img src={process.env.PUBLIC_URL + '/expressvpn-logo.png'} id="product-compare-table-icon"/></td>
                                             <th scope="row">ExpressVPN</th>
                                             <td>{this.getRandomNumber(30, 60)}</td>
                                         </tr>
                                         <tr>
-                                            <td><img src={'/nordvpn-logo.png'} id="product-compare-table-icon"/></td>
+                                            <td><img src={process.env.PUBLIC_URL + '/nordvpn-logo.png'} id="product-compare-table-icon"/></td>
                                             <th scope="row">NordVPN</th>
                                             <td>{this.getRandomNumber(30, 60)}</td>
                                         </tr>
                                         <tr>
-                                            <td><img src={'/surfshark-logo.png'} id="product-compare-table-icon"/></td>
+                                            <td><img src={process.env.PUBLIC_URL + '/surfshark-logo.png'} id="product-compare-table-icon"/></td>
                                             <th scope="row">Surfshark</th>
                                             <td>{this.getRandomNumber(30, 60)}</td>
                                         </tr>

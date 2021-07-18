@@ -9,7 +9,7 @@ class Home extends Component {
                 </div>
 
                 <div className="container-fluid d-flex align-items-center justify-content-center">
-                    <img src={'/black-padlock.png'} id="home-logo" />
+                    <img src={process.env.PUBLIC_URL + '/black-padlock.png'} id="home-logo" />
                 </div>
 
                 <div className="container-fluid d-flex align-items-center justify-content-center">
@@ -17,7 +17,7 @@ class Home extends Component {
                 </div>
 
                 <div className="col text-center">
-                    <button className="btn btn-success text-center" id="home-get-vpn-btn">Get PrivoVPN <img src={'/white-right-arrow.png'} id="home-get-vpn-btn-arrow" /></button>
+                    <button className="btn btn-success text-center" id="home-get-vpn-btn">Get PrivoVPN <img src={process.env.PUBLIC_URL + '/white-right-arrow.png'} id="home-get-vpn-btn-arrow" /></button>
                 </div>
                 <br/>
             </div>

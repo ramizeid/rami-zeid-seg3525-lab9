@@ -5,7 +5,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-md navbar-dark sticky-top" id="navbar">
                 <a className="navbar-left" href="#" id="navbar-logo-div">
-                    <img src={'/white-privo-logo.png'} id="navbar-logo" />
+                    <img src={process.env.PUBLIC_URL + '/white-privo-logo.png'} id="navbar-logo" />
                 </a>
                 <a className="navbar-brand" href="#" id="navbar-title">PrivoVPN</a>
 

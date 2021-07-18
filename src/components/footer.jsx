@@ -11,7 +11,7 @@ class Footer extends Component {
                     <div className="row" style={{marginLeft: '10%'}}>
                         <div className="col col-xs-12">
                             <a className="navbar-brand" href="#" style={{maxWidth: '100%'}}>
-                                <img className="img-responsive" src={'/white-privo-logo.png'} style={{width: '100px', marginTop: '2.5%'}}/>
+                                <img className="img-responsive" src={process.env.PUBLIC_URL + '/white-privo-logo.png'} style={{width: '100px', marginTop: '2.5%'}}/>
                             </a>
                         </div>
                     </div>

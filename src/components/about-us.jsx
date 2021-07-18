@@ -22,7 +22,7 @@ class AboutUs extends Component {
                 {/* Text courtesy of: https://www.expressvpn.com/ */}
                 <div className="row" style={{marginTop: '2%'}}>
                     <div className="col text-center">
-                        <img src={'/question-mark-icon.png'} id="about-us-icon"/>
+                        <img src={process.env.PUBLIC_URL + '/question-mark-icon.png'} id="about-us-icon"/>
                             <p id="about-text-2"><strong>What is a VPN?</strong></p>
                         <p id="about-text-3">A VPN (<strong>virtual private network</strong>) is the easiest and most effective way
                                 for people to protect their internet traffic and keep their identities private online.
@@ -33,7 +33,7 @@ class AboutUs extends Component {
                         </p>
                     </div>
                     <div className="col text-center">
-                        <img src={'/people-icon.png'} id="about-us-icon"/>
+                        <img src={process.env.PUBLIC_URL + '/people-icon.png'} id="about-us-icon"/>
                             <p id="about-text-2"><strong>Who should use a VPN?</strong></p>
                             <p id="about-text-3"><strong>Consumers use VPNs</strong> to keep their online activity private and ensure
                                 access to sites and services that might otherwise be restricted.
