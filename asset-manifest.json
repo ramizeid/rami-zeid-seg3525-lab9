@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/rami-zeid-seg3525-lab9/static/css/main.64c6df56.chunk.css",
-    "main.js": "/rami-zeid-seg3525-lab9/static/js/main.c752d9b4.chunk.js",
-    "main.js.map": "/rami-zeid-seg3525-lab9/static/js/main.c752d9b4.chunk.js.map",
+    "main.css": "/rami-zeid-seg3525-lab9/static/css/main.fd841d66.chunk.css",
+    "main.js": "/rami-zeid-seg3525-lab9/static/js/main.e6d2a254.chunk.js",
+    "main.js.map": "/rami-zeid-seg3525-lab9/static/js/main.e6d2a254.chunk.js.map",
     "runtime-main.js": "/rami-zeid-seg3525-lab9/static/js/runtime-main.69fd3184.js",
     "runtime-main.js.map": "/rami-zeid-seg3525-lab9/static/js/runtime-main.69fd3184.js.map",
     "static/css/2.5ff6f6e6.chunk.css": "/rami-zeid-seg3525-lab9/static/css/2.5ff6f6e6.chunk.css",
-    "static/js/2.ac2bad3a.chunk.js": "/rami-zeid-seg3525-lab9/static/js/2.ac2bad3a.chunk.js",
-    "static/js/2.ac2bad3a.chunk.js.map": "/rami-zeid-seg3525-lab9/static/js/2.ac2bad3a.chunk.js.map",
+    "static/js/2.0a2bd2a8.chunk.js": "/rami-zeid-seg3525-lab9/static/js/2.0a2bd2a8.chunk.js",
+    "static/js/2.0a2bd2a8.chunk.js.map": "/rami-zeid-seg3525-lab9/static/js/2.0a2bd2a8.chunk.js.map",
     "static/js/3.8baf66c8.chunk.js": "/rami-zeid-seg3525-lab9/static/js/3.8baf66c8.chunk.js",
     "static/js/3.8baf66c8.chunk.js.map": "/rami-zeid-seg3525-lab9/static/js/3.8baf66c8.chunk.js.map",
     "index.html": "/rami-zeid-seg3525-lab9/index.html",
     "static/css/2.5ff6f6e6.chunk.css.map": "/rami-zeid-seg3525-lab9/static/css/2.5ff6f6e6.chunk.css.map",
-    "static/css/main.64c6df56.chunk.css.map": "/rami-zeid-seg3525-lab9/static/css/main.64c6df56.chunk.css.map",
-    "static/js/2.ac2bad3a.chunk.js.LICENSE.txt": "/rami-zeid-seg3525-lab9/static/js/2.ac2bad3a.chunk.js.LICENSE.txt",
+    "static/css/main.fd841d66.chunk.css.map": "/rami-zeid-seg3525-lab9/static/css/main.fd841d66.chunk.css.map",
+    "static/js/2.0a2bd2a8.chunk.js.LICENSE.txt": "/rami-zeid-seg3525-lab9/static/js/2.0a2bd2a8.chunk.js.LICENSE.txt",
     "static/media/empty-state.2f0835b4.svg": "/rami-zeid-seg3525-lab9/static/media/empty-state.2f0835b4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.69fd3184.js",
     "static/css/2.5ff6f6e6.chunk.css",
-    "static/js/2.ac2bad3a.chunk.js",
-    "static/css/main.64c6df56.chunk.css",
-    "static/js/main.c752d9b4.chunk.js"
+    "static/js/2.0a2bd2a8.chunk.js",
+    "static/css/main.fd841d66.chunk.css",
+    "static/js/main.e6d2a254.chunk.js"
   ]
 }
