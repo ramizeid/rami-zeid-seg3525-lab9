@@ -7,7 +7,7 @@ class Navbar extends Component {
                 <a className="navbar-left" href="#" onClick={this.redirectHome} id="navbar-logo-div">
                     <img src={process.env.PUBLIC_URL + '/white-privo-logo.png'} id="navbar-logo" />
                 </a>
-                <a className="navbar-brand" href="#" onClick={this.redirectHome} id="navbar-title">PrivoVPN</a>
+                <a className="navbar-brand" href="#" onClick={this.redirectHome} id="navbar-title">TEST! PrivoVPN</a>
 
                 <ul className="navbar-nav ms-auto" id="navbar-options-div">
                     <li className="nav-item">
