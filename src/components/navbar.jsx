@@ -7,7 +7,7 @@ class Navbar extends Component {
                 <a className="navbar-left" href="#" onClick={this.redirectHome} id="navbar-logo-div">
                     <img src={process.env.PUBLIC_URL + '/white-privo-logo.png'} id="navbar-logo" />
                 </a>
-                <a className="navbar-brand" href="#" onClick={this.redirectHome} id="navbar-title">TEST! PrivoVPN</a>
+                <a className="navbar-brand" href="#" onClick={this.redirectHome} id="navbar-title">PrivoVPN</a>
 
                 <ul className="navbar-nav ms-auto" id="navbar-options-div">
                     <li className="nav-item">
@@ -40,7 +40,7 @@ class Navbar extends Component {
         const alternateOriginUrl4 = window.location.origin + "/#"
 
         if (currentUrl !== alternateOriginUrl && currentUrl !== alternateOriginUrl2 && currentUrl !== alternateOriginUrl3 && currentUrl !== alternateOriginUrl4) {
-            window.location.href = alternateOriginUrl;
+            window.location.href = window.location.origin;
         }
     }
 

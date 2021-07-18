@@ -40,7 +40,7 @@ function App() {
                     <GetStarted/>
                 </Route>
 
-                <Route exact path="rami-zeid-seg3525-lab9/get-started">
+                <Route exact path="/rami-zeid-seg3525-lab9/get-started">
                     <GetStarted/>
                 </Route>
 
