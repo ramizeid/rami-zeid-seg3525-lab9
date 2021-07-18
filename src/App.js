@@ -14,7 +14,7 @@ function App() {
         <React.Fragment>
             {/* Components that are on the entire website */}
             <video id='background-video' autoPlay loop muted>
-                <source src={'/background-video.mp4'} type='video/mp4' />
+                <source src={process.env.PUBLIC_URL + '/background-video.mp4'} type='video/mp4' />
             </video>
             <ChatButton/>
 
