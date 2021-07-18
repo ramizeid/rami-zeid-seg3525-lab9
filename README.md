@@ -1,4 +1,4 @@
-### Please note that the website can only be accessed locally.
+### Website link: https://ramizeid.github.io/rami-zeid-seg3525-lab9/
 
 ----
 

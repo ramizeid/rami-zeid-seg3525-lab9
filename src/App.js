@@ -36,7 +36,7 @@ function App() {
                     <Support/>
                 </Route>
 
-                <Route exact path="/#get-started">
+                <Route exact path="/get-started">
                     <GetStarted/>
                 </Route>
 

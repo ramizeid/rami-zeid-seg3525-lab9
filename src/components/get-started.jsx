@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {ChatBox} from "react-chatbox-component";
 
 class GetStarted extends Component {
     render() {
