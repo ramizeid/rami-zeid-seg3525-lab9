@@ -33,8 +33,8 @@ class Footer extends Component {
                                     <div className="row">
                                         <div className="col col-xs-auto col-md-auto col-lg-4">
                                             <ul style={{listStyleType: 'none'}}>
-                                                <li style={{marginBottom: '1rem'}}><a href="#" style={{color: '#ffffff'}}>Terms of Service</a></li>
-                                                <li><a href="#" style={{color: '#ffffff'}}>Privacy Policy</a></li>
+                                                <li style={{marginBottom: '1rem'}}><a href="#" style={{color: '#ffffff', textDecoration: 'none'}}>Terms of Service</a></li>
+                                                <li><a href="#" style={{color: '#ffffff', textDecoration: 'none'}}>Privacy Policy</a></li>
                                             </ul>
                                         </div>
                                     </div>
