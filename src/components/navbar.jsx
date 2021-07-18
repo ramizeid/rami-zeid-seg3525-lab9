@@ -38,7 +38,6 @@ class Navbar extends Component {
         const alternateOriginUrl2 = window.location.origin + "/rami-zeid-seg3525-lab9#"
         const alternateOriginUrl3 = window.location.origin + "/"
         const alternateOriginUrl4 = window.location.origin + "/#"
-        console.log(alternateOriginUrl)
 
         if (currentUrl !== alternateOriginUrl && currentUrl !== alternateOriginUrl2 && currentUrl !== alternateOriginUrl3 && currentUrl !== alternateOriginUrl4) {
             window.location.href = alternateOriginUrl;
