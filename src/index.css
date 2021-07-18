@@ -91,6 +91,7 @@ code {
 
 #home-get-vpn-btn-arrow {
     width: 30px;
+    margin-top: -1%;
 }
 
 #chat-button {
@@ -293,4 +294,10 @@ code {
 #form-icon {
     height: 25px;
     margin-right: 1%;
+}
+
+#error-return-btn-arrow {
+    width: 30px;
+    transform: rotate(180deg);
+    margin-top: -1%;
 }

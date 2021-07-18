@@ -10,6 +10,7 @@ import Product from "./components/product";
 import Support from "./components/support";
 import Footer from "./components/footer";
 import GetStarted from "./components/get-started";
+import Error from "./components/error";
 
 function App() {
     return (
@@ -42,6 +43,14 @@ function App() {
 
                 <Route exact path="/rami-zeid-seg3525-lab9-get-started">
                     <GetStarted/>
+                </Route>
+
+                <Route exact path="/error">
+                    <Error/>
+                </Route>
+
+                <Route exact path="/rami-zeid-seg3525-lab9-error">
+                    <Error/>
                 </Route>
 
                 <Footer/>
