@@ -16,7 +16,7 @@ class AboutUs extends Component {
                 />
 
                 <div className="container-fluid d-flex align-items-center justify-content-center">
-                    <p id="about-text-1">About Us</p>
+                    <p className="text-center" id="about-text-1">About Us</p>
                 </div>
 
                 {/* Text courtesy of: https://www.expressvpn.com/ */}

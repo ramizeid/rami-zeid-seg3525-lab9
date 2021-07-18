@@ -5,7 +5,7 @@ class Error extends Component {
         return (
             <div className="error" id="error">
                 <div className="container-fluid d-flex align-items-center justify-content-center">
-                    <p id="about-text-1"><img src={process.env.PUBLIC_URL + '/sad-face-icon.png'} id="support-title-icon"/> We're sorry, something went wrong!</p>
+                    <p className="text-center" id="about-text-1"><img src={process.env.PUBLIC_URL + '/sad-face-icon.png'} id="support-title-icon"/> We're sorry, something went wrong!</p>
                 </div>
                 <br/>
                 <div className="container-fluid d-flex align-items-center justify-content-center" style={{marginTop: '1%'}}>
