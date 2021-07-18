@@ -10,7 +10,7 @@ class Navbar extends Component {
                 <a className="navbar-brand" href="#" onClick={this.redirectHome} id="navbar-title">PrivoVPN</a>
 
                 <div className="row">
-                    <div className="btn-group full-width" role="group" id="translate-panel" aria-label="Translate Panel" style={{width: '100%', marginLeft: '30%'}}>
+                    <div className="btn-group full-width" role="group" id="translate-panel" aria-label="Translate Panel" style={{width: '100%', marginLeft: '30%', marginRight: '30%'}}>
                         <button type="button" className="btn btn-outline-light" id="english-translate-btn"
                                 onClick={this.isWebsiteInEnglish}>Translate to English
                         </button>
