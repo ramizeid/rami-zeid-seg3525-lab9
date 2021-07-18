@@ -7,7 +7,7 @@ class ChatButton extends Component {
             <React.Fragment>
                 <button data-tip data-for="chat-button-tooltip" id={"chat-button"}>
                     <div className="tooltip">Test</div>
-                    <img src={'/chat-button.png'} id="chat-button-icon" />
+                    <img src={process.env.PUBLIC_URL + '/chat-button.png'} id="chat-button-icon" />
                 </button>
 
                 <ReactTooltip id="chat-button-tooltip" place="left" effect="solid">Need help? Chat with us!</ReactTooltip>

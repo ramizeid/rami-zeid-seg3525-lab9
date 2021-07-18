@@ -10,7 +10,7 @@ class Support extends Component {
             "sender": {
                 "name": "PrivoVPN",
                 "uid": "user2",
-                "avatar": '/black-padlock.png',
+                "avatar": process.env.PUBLIC_URL + '/black-padlock.png',
             },
         },
     ]
