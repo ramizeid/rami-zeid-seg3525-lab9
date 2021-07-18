@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/rami-zeid-seg3525-lab9/static/css/main.c0460bb2.chunk.css",
+    "main.js": "/rami-zeid-seg3525-lab9/static/js/main.e3894c60.chunk.js",
+    "main.js.map": "/rami-zeid-seg3525-lab9/static/js/main.e3894c60.chunk.js.map",
+    "runtime-main.js": "/rami-zeid-seg3525-lab9/static/js/runtime-main.b56700e3.js",
+    "runtime-main.js.map": "/rami-zeid-seg3525-lab9/static/js/runtime-main.b56700e3.js.map",
+    "static/css/2.5ff6f6e6.chunk.css": "/rami-zeid-seg3525-lab9/static/css/2.5ff6f6e6.chunk.css",
+    "static/js/2.02679d19.chunk.js": "/rami-zeid-seg3525-lab9/static/js/2.02679d19.chunk.js",
+    "static/js/2.02679d19.chunk.js.map": "/rami-zeid-seg3525-lab9/static/js/2.02679d19.chunk.js.map",
+    "static/js/3.6ca4a8d8.chunk.js": "/rami-zeid-seg3525-lab9/static/js/3.6ca4a8d8.chunk.js",
+    "static/js/3.6ca4a8d8.chunk.js.map": "/rami-zeid-seg3525-lab9/static/js/3.6ca4a8d8.chunk.js.map",
+    "index.html": "/rami-zeid-seg3525-lab9/index.html",
+    "static/css/2.5ff6f6e6.chunk.css.map": "/rami-zeid-seg3525-lab9/static/css/2.5ff6f6e6.chunk.css.map",
+    "static/css/main.c0460bb2.chunk.css.map": "/rami-zeid-seg3525-lab9/static/css/main.c0460bb2.chunk.css.map",
+    "static/js/2.02679d19.chunk.js.LICENSE.txt": "/rami-zeid-seg3525-lab9/static/js/2.02679d19.chunk.js.LICENSE.txt",
+    "static/media/empty-state.2f0835b4.svg": "/rami-zeid-seg3525-lab9/static/media/empty-state.2f0835b4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b56700e3.js",
+    "static/css/2.5ff6f6e6.chunk.css",
+    "static/js/2.02679d19.chunk.js",
+    "static/css/main.c0460bb2.chunk.css",
+    "static/js/main.e3894c60.chunk.js"
+  ]
+}
