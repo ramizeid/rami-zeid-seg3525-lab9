@@ -26,9 +26,8 @@ class GetStarted extends Component {
                                 <p className="alert text-center" role="alert"
                                    style={{backgroundColor: '#EEEEEE', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif', borderColor: '#3B3B3B'}}>
                                     <strong>CAD 10.99/mo</strong></p>
-                                <a onClick={this.bookingScroll} className="btn btn-success mx-auto d-block"
-                                   style={{color: 'white', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif'}}>Book
-                                    Service</a>
+                                <a onClick={this.redirectPurchasePlan} className="btn btn-success mx-auto d-block"
+                                   style={{color: 'white', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif'}}>Purchase Plan</a>
                             </div>
                         </div>
                     </div>
@@ -47,9 +46,8 @@ class GetStarted extends Component {
                                     <strong><strike>CAD 10.99/mo</strike></strong>
                                     <br/>
                                     <strong>CAD 3.99/mo</strong></p>
-                                <a onClick={this.bookingScroll} className="btn btn-success mx-auto d-block"
-                                   style={{color: 'white', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif'}}>Book
-                                    Service</a>
+                                <a onClick={this.redirectPurchasePlan} className="btn btn-success mx-auto d-block"
+                                   style={{color: 'white', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif'}}>Purchase Plan</a>
                             </div>
                         </div>
                     </div>
@@ -66,15 +64,14 @@ class GetStarted extends Component {
                                 <p className="alert text-center" role="alert"
                                    style={{backgroundColor: '#EEEEEE', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif', borderColor: '#3B3B3B'}}>
                                     <strong>CAD 5.99/mo</strong></p>
-                                <a onClick={this.bookingScroll} className="btn btn-success mx-auto d-block"
-                                   style={{color: 'white', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif'}}>Book
-                                    Service</a>
+                                <a onClick={this.redirectPurchasePlan} className="btn btn-success mx-auto d-block"
+                                   style={{color: 'white', borderRadius: '15px', fontFamily: 'Montserrat, sans-serif'}}>Purchase Plan</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <br/>
-                <div style={{marginTop: '1%', marginLeft: '5%'}}>
+                <div id="purchase-plan" style={{marginTop: '1%', marginLeft: '5%'}}>
                     <p id="about-text-2">2. Create a PrivoVPN account</p>
                 </div>
 
@@ -107,6 +104,13 @@ class GetStarted extends Component {
                 <br/>
             </div>
         );
+    }
+
+    redirectPurchasePlan = () => {
+        const yOffset = -150
+        const location = document.getElementById('purchase-plan').getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+        window.scrollTo({top: location, behavior: 'smooth'});
     }
 }
 

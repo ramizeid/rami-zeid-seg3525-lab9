@@ -27,10 +27,10 @@ class Home extends Component {
     redirectGetStarted() {
         const baseUrl = window.location.origin
         const currentUrl = window.location.href
-        const path = "get-started"
+        const path = "rami-zeid-seg3525-lab9-get-started"
 
         if (!currentUrl.includes(path)) {
-            window.location.href = baseUrl + "/"+ path;
+            window.location.href = baseUrl + "/" + path;
         }
     }
 }

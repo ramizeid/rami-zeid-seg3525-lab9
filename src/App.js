@@ -36,11 +36,11 @@ function App() {
                     <Support/>
                 </Route>
 
-                <Route exact path="/get-started">
+                <Route exact path="/#get-started">
                     <GetStarted/>
                 </Route>
 
-                <Route exact path="/rami-zeid-seg3525-lab9/get-started">
+                <Route exact path="/rami-zeid-seg3525-lab9-get-started">
                     <GetStarted/>
                 </Route>
 
