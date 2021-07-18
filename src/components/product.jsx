@@ -9,7 +9,7 @@ class Product extends Component {
 
     render() {
         return (
-            <div className="product">
+            <div className="product" id="product">
                 <div className="container-fluid d-flex align-items-center justify-content-center">
                     <p id="about-text-1">Product</p>
                 </div>

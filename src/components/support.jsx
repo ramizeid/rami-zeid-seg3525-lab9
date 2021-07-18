@@ -17,7 +17,7 @@ class Support extends Component {
 
     render() {
         return (
-            <div className="support">
+            <div className="support" id="support">
                 <hr
                     style={{
                         height: '10px',

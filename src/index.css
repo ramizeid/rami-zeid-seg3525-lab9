@@ -100,6 +100,7 @@ code {
     padding: 0;
     bottom: 3.5%;
     right: 2.5%;
+    z-index: 10;
 }
 
 #chat-button:focus {
@@ -217,8 +218,8 @@ code {
 }
 
 .footer {
-  background-color: #292b30;
-  color: white;
-  line-height: 1.4;
-  font-size: 1.1rem;
+    background-color: #292b30;
+    color: white;
+    line-height: 1.4;
+    font-size: 1.1rem;
 }

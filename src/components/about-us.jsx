@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class AboutUs extends Component {
     render() {
         return (
-            <div className="about-us">
+            <div className="about-us" id="about-us">
                 <hr
                     style={{
                         height: '10px',
