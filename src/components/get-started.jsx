@@ -95,8 +95,7 @@ class GetStarted extends Component {
                                 <hr/>
                             </form>
 
-                            <a href="#" className="btn btn-primary mx-auto d-block" style={{color: 'white'}}>Book
-                                Appointment</a>
+                            <a href="#" className="btn btn-primary mx-auto d-block" style={{color: 'white'}}>Create account & pay</a>
                         </div>
                     </div>
                 </div>
