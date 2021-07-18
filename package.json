@@ -1,7 +1,7 @@
 {
   "name": "seg3525-lab9",
   "version": "0.1.0",
-  "homepage": "https://ramizeid.github.io/rami-zeid-seg3525-lab9",
+  "homepage": "https://ramizeid.github.io/rami-zeid-seg3525-lab9/",
   "private": true,
   "dependencies": {
     "@popperjs/core": "^2.9.2",
